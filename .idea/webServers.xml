@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="692fd836-c8b1-4432-8346-24214617612d" name="Code">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="code1.cleancode.kr" port="22" sshConfigId="b591ed6d-0f18-4ec1-b68b-a6a665156caa" sshConfig="ubuntu@code1.cleancode.kr:22" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="698c4229-f314-44db-a8c3-4125b4be28a7" name="Code1">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="code1.cleancode.kr" port="22" sshConfigId="b591ed6d-0f18-4ec1-b68b-a6a665156caa" sshConfig="ubuntu@code1.cleancode.kr:22" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="e62386f1-cd10-4b9f-84b3-a82fa8dad750" name="DB">
+        <fileTransfer rootFolder="/home/ubuntu" accessType="SFTP" host="db.cleancode.kr" port="22" sshConfigId="93c49621-f7fe-4ea7-af60-049017890026" sshConfig="ubuntu@db.cleancode.kr:22" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
